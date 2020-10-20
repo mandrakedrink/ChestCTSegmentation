@@ -48,3 +48,31 @@ def show_video(video_path: str):
     <source src="data:video/mp4;base64,{0}" type="video/mp4" /> </video>'''
     .format(encoded.decode('ascii')))
   
+  
+def get_color_info(classes: list = ['lung', 'heart', 'trachea']):
+
+    def get_color(cmap):
+        new_cmap = colors.LinearSegmentedColormap.from_list(
+            (cmap.name, 0.0, 0.0,),
+            cmap(np.linspace(0.0, 0.0, 100))
+            )
+        return new_cmap
+
+    colormaps = [plt.get_cmap(cmap_name) for cmap_name in 
+                ['cool', 'autumn', 'autumn_r']
+                ]
+    arr = np.linspace(0, 50, 100).reshape((10, 10))
+    fig, ax = plt.subplots(1, 3, figsize=(15, 5))
+    for i in range(3):
+        cmap = get_color(colormaps[i])
+        ax[i].axis('off')
+        ax[i].imshow(arr, cmap=cmap)
+        ax[i].set_title(classes[i], fontsize=15)
+
+    fig.suptitle("Color definition", fontsize=20, y=0.99)
+    fig.savefig(f"color_definition.png", bbox_inches='tight', 
+                pad_inches=0.2, dpi=100, format="png")
+    
+    plt.savefig(f"color_definition.svg", bbox_inches='tight',
+                pad_inches=0.2, dpi=100, format="svg")
+    plt.show()
