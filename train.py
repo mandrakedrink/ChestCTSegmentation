@@ -134,12 +134,6 @@ class Trainer:
     def train(self):
         for epoch in range(self.num_epochs):
             self._do_epoch(epoch, "train")
-            state = {
-                "epoch": epoch,
-                "best_loss": self.best_loss,
-                "state_dict": self.net.state_dict(),
-                "optimizer": self.optimizer.state_dict()
-            }
             with torch.no_grad():
                 val_loss = self._do_epoch(epoch, "val")
                 self.scheduler.step(val_loss)
