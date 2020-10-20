@@ -6,7 +6,7 @@ Automatic segmentation of medical images is an important step to extract useful 
 ### Data
 Available [here]() or [here](https://drive.google.com/drive/folders/1krhZD2R4QORhL_SiXNwqi1KRJ2s9zP-2?usp=sharing).
 This dataset was be modified from `Lung segmentation dataset by Kónya et al., 2020 , https://www.kaggle.com/sandorkonya/ct-lung-heart-trachea-segmentation`
-code with creation dataset available here - [dataset_creation.ipynb](https://github.com/mandrakedrink/ChestCTSegmentation/blob/master/dataset_creation.ipynb)[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/166TOgOsRvcblQK2j_HTB8CmVy5VGabas?usp=sharing)
+The code with  dataset  creation available here - [dataset_creation.ipynb](https://github.com/mandrakedrink/ChestCTSegmentation/blob/master/dataset_creation.ipynb)[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/166TOgOsRvcblQK2j_HTB8CmVy5VGabas?usp=sharing)
 
 More information about dataset can be read [here].
 
