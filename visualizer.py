@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 import cv2
 import matplotlib.pyplot as plt
+import matplotlib.colors as colors
 
 import time
 from IPython.display import clear_output
