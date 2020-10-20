@@ -14,8 +14,7 @@ More information about dataset can be read [here].
 Each pixel must be labeled “1” if it is part of one of the classes (**lungs**, **heart**, **trachea**), and “0” if not.
 
 ### Solution
-
-The code with the solution is available here - The code with the solution is available here - [ct_chest_seg.ipynb](https://github.com/mandrakedrink/ChestCTSegmentation/blob/master/ct_chest_segmentation.ipynb)[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/12MNwOSHp7JkVB3jkabqVXSTJoR4jZArm?usp=sharing)
+The code with the solution is available here - [ct_chest_seg.ipynb](https://github.com/mandrakedrink/ChestCTSegmentation/blob/master/ct_chest_segmentation.ipynb)[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/12MNwOSHp7JkVB3jkabqVXSTJoR4jZArm?usp=sharing)
 
 ### Results 
 
