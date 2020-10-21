@@ -4,11 +4,11 @@
 Automatic segmentation of medical images is an important step to extract useful information that can help doctors make a diagnosis. Lung segmentation constitutes a critical procedure for any clinical-decision supporting system aimed to improve the early diagnosis and treatment of lung diseases. 
 
 ### Data
-Available [here]() or [here](https://drive.google.com/drive/folders/1krhZD2R4QORhL_SiXNwqi1KRJ2s9zP-2?usp=sharing).
+Available [here](https://www.kaggle.com/polomarco/chest-ct-segmentation) or [here](https://drive.google.com/drive/folders/1krhZD2R4QORhL_SiXNwqi1KRJ2s9zP-2?usp=sharing).
 This dataset was be modified from `Lung segmentation dataset by Kónya et al., 2020 , https://www.kaggle.com/sandorkonya/ct-lung-heart-trachea-segmentation`
 The code with  dataset  creation available here - [dataset_creation.ipynb](https://github.com/mandrakedrink/ChestCTSegmentation/blob/master/dataset_creation.ipynb)[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/166TOgOsRvcblQK2j_HTB8CmVy5VGabas?usp=sharing)
 
-More information about dataset can be read [here].
+More information about dataset can be read [here](https://www.kaggle.com/polomarco/chest-ct-segmentation).
 
 ### Formulation of the problem:
 Each pixel must be labeled “1” if it is part of one of the classes (**lungs**, **heart**, **trachea**), and “0” if not.
